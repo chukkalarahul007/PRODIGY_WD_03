@@ -1,0 +1,36 @@
+body {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.mode-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #f0c419; /* Button background color */
+    color: #333; /* Button text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffdb58; /* Button background color on hover */
+    color: #333;
+}
